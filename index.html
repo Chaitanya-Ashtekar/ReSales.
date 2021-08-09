@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReSales</title>
+  <link rel="icon" href="images/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!-- Aclonica -->
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+  <!-- Pacifico -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!-- Khand -->
+  <link href="https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap" rel="stylesheet">
+  <!-- Oswald -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <!-- Ubuntu -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <!-- Dancing Script -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@700&display=swap">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Stylesheets   -->
+  <link rel="stylesheet" href="./assets/styles/bundle.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/76fb30b4c7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <p class="top-notice">Delivery May be delyaed due to COVID-19 Restrictions.</p>
+  <div class="appbar">
+    <a href="index.html" class="appbar-title">ReSales</a>
+    <div class="appbar-content">
+      <a class="appbar-item" href="products.html">Products</a>
+      <a class="appbar-item" href="#">Customer Support</a>
+      <a class="appbar-item" href="#">My Account</a>
+    </div>
+    <a class="appbar-item bi bi-cart" href="#">: Open Cart</a>
+    <a class="appbar-item bi bi-list" href="#" onclick="menutoggle()"></a>
+  </div>
+  <div class="container">
+    <div class="row" style="min-height: 750px; align-items: center;justify-content: center;">
+      <div class="col col--12 col-medium--10 col-large--6">
+        <h2> One Destination for all your Tech Needs...!</h2>
+        <p>ReSales is everything related to Cutting-edge consumer electronics.
+          Since 2021, We are serving a market that is passionate about Technology.
+        </p>
+        <a href="products.html" class="button button--primary button--rounded">Explore Now &#8594;</a>
+      </div>
+      <div class="col col--12 col-medium--10 col-large--6">
+        <img src="./assets/images/header.jpg" alt="gadgets.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Categories Section -->
+  <div class="sub-header"></div>
+
+  <!-- Categories Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col col--12">
+        <h2 style="text-align: center;">Shop by categories</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card">
+          <div class="card-content">
+            <div class="categories-card-front card-front-1">
+              <span>iPhone</span>
+            </div>
+            <div class="categories-card-back">
+              <p>The fastest & most powerful Smartphone Lineup yet.</p>
+              <a class="button button--outlined-primary" href="categories-iphone.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card">
+          <div class="card-content">
+            <div class="categories-card-front card-front-2">
+              <span>iPad</span>
+            </div>
+            <div class="categories-card-back">
+              <p>Delightfully capable. Surprisingly affordable.</p>
+              <a class="button button--outlined-warning" href="categories-ipad.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card">
+          <div class="card-content">
+            <div class="categories-card-front card-front-3">
+              <span>Accessories</span>
+            </div>
+            <div class="categories-card-back">
+              <p>Discover the perfect accessories for your gadgets.</p>
+              <a class="button button--outlined-success" href="categories-accessories.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col--12">
+        <h2 style="text-align: center;">Bestselling Products</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card card--raised">
+          <div class="card-content">
+            <img class="card--media display-product" src="./assets/images/watch/1.jpg" alt="iPhone 7">
+            <a class="card-fab card-fab--right button--primary bi bi-plus"></a>
+            <h5>Apple Watch Series 6</h5>
+            <p>Price: $399.0<br> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card card--raised">
+          <div class="card-content">
+            <img class="card--media display-product" src="./assets/images/watch/2.jpg" alt="iPhone 7">
+            <a class="card-fab card-fab--right button--primary bi bi-plus"></a>
+            <h5>Apple Watch SE</h5>
+            <p>Price: $279.0<br> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col col--12 col-medium--6 col-large--4">
+        <div class="card card--raised">
+          <div class="card-content">
+            <img class="card--media display-product" src="./assets/images/watch/3.jpg" alt="iPhone 7">
+            <a class="card-fab card-fab--right button--primary bi bi-plus"></a>
+            <h5>Apple Watch Series 3</h5>
+            <p>Price: $199.0<br> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Apple Airpods -->
+  <div class="container">
+    <div class="row">
+      <div class="col col--12">
+        <h2>Apple AirPods</h2>
+        <p>Now Available on ReSales @ Just ₹12,900.00</p>
+        <p>With more talk time, voice-activated Siri access,
+          <br> AirPods deliver an unparalleled wireless headphone
+          experience. Simply take them out and they’re ready to
+          use with all your devices. Put them in your ears and they
+          connect immediately immersing you in rich, high-quality
+          sound. Just like magic. </p>
+        <a class="button button--outlined-primary" href="airpods-2-wired-product-details.html">Buy Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col--12 col-large--6">
+          <h3>Useful Links</h3>
+          <ul class="list">
+            <li class="list-item">About ReSales</li>
+            <li class="list-item">Blog Post</li>
+            <li class="list-item">Return Policy</li>
+            <li class="list-item">Become an Affiliate</li>
+            <li class="list-item">Careers</li>
+            <li class="list-item">Help & Support</li>
+          </ul>
+        </div>
+        <div class="col col--12 col-large--6">
+          <h3>Follow Us</h3>
+          <div class="social-icon">
+            <a class="button button--icon button--text-primary" href="https://www.facebook.com/">
+              <span class="bi bi-facebook"></span>
+            </a>
+            <a class="button button--icon button--text-secondary" href="https://www.instagram.com/">
+              <span class="bi bi-instagram"></span>
+            </a>
+            <a class="button button--icon button--text-success" href="https://www.whatsapp.com/">
+              <span class="bi bi-whatsapp"></span>
+            </a>
+            <a class="button button--icon button--text-error" href="https://www.youtube.com/">
+              <span class="bi bi-youtube"></span>
+            </a>
+
+          </div>
+        </div>
+        <div class="col col--12 col-large--12" style="text-align: center;">
+          <p class="copyright">© Copyright 2021, ReSales. All Rights Reserved</p>
+          <p class="copyright">Made with ❤ by
+            <a class="GitHub-Link" href="https://github.com/Chaitanya-Ashtekar">
+              <span>Chaitanya Ashtekar</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+}
+
+.sub-header {
+    background-image: url('../../assets/images/sub_header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 500px;
+}
+
+.card--media.display-product {
+    margin: 0 auto;
+    width: auto;
+    height: 250px;
+}
